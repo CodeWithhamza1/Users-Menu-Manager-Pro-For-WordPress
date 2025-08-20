@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Menu Manager Pro - User Documentation</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-shield-check me-2"></i>
+                Users Menu Manager Pro
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#installation">Installation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#capabilities-guide">Capabilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#usage">Usage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#troubleshooting">Troubleshooting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-white mb-4">
+                        Users Menu Manager Pro
+                    </h1>
+                    <p class="lead text-white-50 mb-4">
+                        Complete WordPress user management solution with advanced role management, 
+                        menu restrictions, and form access control.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#overview" class="btn btn-light btn-lg">Get Started</a>
+                        <a href="#features" class="btn btn-outline-light btn-lg">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image">
+                        <i class="bi bi-shield-lock display-1 text-white-50"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">Plugin Overview</h2>
+                    <p class="lead text-muted mb-5">
+                        Users Menu Manager Pro is a comprehensive WordPress plugin that gives you complete control 
+                        over user roles, capabilities, and admin menu access. Perfect for multi-user websites, 
+                        client portals, and businesses that need granular user permissions.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-people-fill text-primary"></i>
+                        </div>
+                        <h4>User Management</h4>
+                        <p class="text-muted">Create custom roles, manage capabilities, and control user access with ease.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-menu-button-wide text-success"></i>
+                        </div>
+                        <h4>Menu Control</h4>
+                        <p class="text-muted">Hide or show admin menu items based on user roles and capabilities.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-file-earmark-text text-warning"></i>
+                        </div>
+                        <h4>Form Access</h4>
+                        <p class="text-muted">Control access to Ninja Forms submissions and other form plugins.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">Key Features</h2>
+                    <p class="lead text-muted mb-5">
+                        Discover what makes Users Menu Manager Pro the ultimate solution for WordPress user management.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="feature-item d-flex align-items-start">
+                        <div class="feature-icon me-3">
+                            <i class="bi bi-shield-check text-primary"></i>
+                        </div>
+                        <div>
+                            <h5>Advanced Role Management</h5>
+                            <p class="text-muted">Create custom roles with specific capabilities, clone existing roles, and manage user permissions efficiently.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-item d-flex align-items-start">
+                        <div class="feature-icon me-3">
+                            <i class="bi bi-gear text-success"></i>
+                        </div>
+                        <div>
+                            <h5>Menu Restriction System</h5>
+                            <p class="text-muted">Drag-and-drop interface to hide or show admin menu items based on user roles and capabilities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-item d-flex align-items-start">
+                        <div class="feature-icon me-3">
+                            <i class="bi bi-file-earmark-text text-warning"></i>
+                        </div>
+                        <div>
+                            <h5>Ninja Forms Integration</h5>
+                            <p class="text-muted">Control access to Ninja Forms submissions with custom viewer roles and restricted access.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-item d-flex align-items-start">
+                        <div class="feature-icon me-3">
+                            <i class="bi bi-activity text-info"></i>
+                        </div>
+                        <div>
+                            <h5>Activity Logging</h5>
+                            <p class="text-muted">Comprehensive logging of all user actions, role changes, and system activities for security and audit purposes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-item d-flex align-items-start">
+                        <div class="feature-icon me-3">
+                            <i class="bi bi-phone text-danger"></i>
+                        </div>
+                        <div>
+                            <h5>Responsive Design</h5>
+                            <p class="text-muted">Modern, mobile-friendly interface that works perfectly on all devices and screen sizes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-item d-flex align-items-start">
+                        <div class="feature-icon me-3">
+                            <i class="bi bi-database text-secondary"></i>
+                        </div>
+                        <div>
+                            <h5>Database Management</h5>
+                            <p class="text-muted">Efficient database operations with proper indexing and optimized queries for better performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Section -->
+    <section id="installation" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">Installation Guide</h2>
+                    <p class="lead text-muted mb-5">
+                        Follow these simple steps to install and activate Users Menu Manager Pro on your WordPress site.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="step-card text-center p-4">
+                        <div class="step-number mb-3">1</div>
+                        <h5>Upload Plugin</h5>
+                        <p class="text-muted">Upload the plugin files to your WordPress plugins directory or use the WordPress admin to install.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="step-card text-center p-4">
+                        <div class="step-number mb-3">2</div>
+                        <h5>Activate Plugin</h5>
+                        <p class="text-muted">Go to Plugins > Installed Plugins and click "Activate" for Users Menu Manager Pro.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="step-card text-center p-4">
+                        <div class="step-number mb-3">3</div>
+                        <h5>Access Dashboard</h5>
+                        <p class="text-muted">Navigate to "Menu Manager Pro" in your WordPress admin menu to start configuring.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto">
+                    <div class="alert alert-info">
+                        <h6><i class="bi bi-info-circle me-2"></i>System Requirements</h6>
+                        <ul class="mb-0">
+                            <li>WordPress 5.0 or higher</li>
+                            <li>PHP 7.4 or higher</li>
+                            <li>MySQL 5.6 or higher</li>
+                            <li>Administrator privileges for initial setup</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WordPress Capabilities Guide Section -->
+    <section id="capabilities-guide" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">WordPress Capabilities Guide</h2>
+                    <p class="lead text-muted mb-5">
+                        Understanding WordPress capabilities helps you create the right permissions for your users. 
+                        Think of capabilities as "keys" that unlock different features in WordPress.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Default WordPress Capabilities -->
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div class="capabilities-section">
+                        <h3 class="text-center mb-4">
+                            <i class="bi bi-shield-check text-primary me-2"></i>
+                            Default WordPress Capabilities
+                        </h3>
+                        
+                        <div class="row g-4">
+                            <!-- Content Management -->
+                            <div class="col-lg-6">
+                                <div class="capability-group">
+                                    <h5 class="text-success mb-3">
+                                        <i class="bi bi-file-earmark-text me-2"></i>
+                                        Content Management
+                                    </h5>
+                                    <div class="capability-list">
+                                        <div class="capability-item">
+                                            <strong>read</strong>
+                                            <span class="capability-desc">Can read posts and pages</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_posts</strong>
+                                            <span class="capability-desc">Can create and edit their own posts</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_pages</strong>
+                                            <span class="capability-desc">Can create and edit pages</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>publish_posts</strong>
+                                            <span class="capability-desc">Can publish posts immediately</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>delete_posts</strong>
+                                            <span class="capability-desc">Can delete their own posts</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>upload_files</strong>
+                                            <span class="capability-desc">Can upload media files</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- User Management -->
+                            <div class="col-lg-6">
+                                <div class="capability-group">
+                                    <h5 class="text-info mb-3">
+                                        <i class="bi bi-people me-2"></i>
+                                        User Management
+                                    </h5>
+                                    <div class="capability-list">
+                                        <div class="capability-item">
+                                            <strong>list_users</strong>
+                                            <span class="capability-desc">Can view the users list</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_users</strong>
+                                            <span class="capability-desc">Can edit other users</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>create_users</strong>
+                                            <span class="capability-desc">Can create new users</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>delete_users</strong>
+                                            <span class="capability-desc">Can delete users</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>promote_users</strong>
+                                            <span class="capability-desc">Can change user roles</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Site Administration -->
+                            <div class="col-lg-6">
+                                <div class="capability-group">
+                                    <h5 class="text-warning mb-3">
+                                        <i class="bi bi-gear me-2"></i>
+                                        Site Administration
+                                    </h5>
+                                    <div class="capability-list">
+                                        <div class="capability-item">
+                                            <strong>manage_options</strong>
+                                            <span class="capability-desc">Can access Settings pages</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>activate_plugins</strong>
+                                            <span class="capability-desc">Can activate/deactivate plugins</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>install_plugins</strong>
+                                            <span class="capability-desc">Can install new plugins</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>switch_themes</strong>
+                                            <span class="capability-desc">Can change themes</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_theme_options</strong>
+                                            <span class="capability-desc">Can customize theme settings</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>manage_categories</strong>
+                                            <span class="capability-desc">Can manage post categories</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Comments & Moderation -->
+                            <div class="col-lg-6">
+                                <div class="capability-group">
+                                    <h5 class="text-danger mb-3">
+                                        <i class="bi bi-chat-dots me-2"></i>
+                                        Comments & Moderation
+                                    </h5>
+                                    <div class="capability-list">
+                                        <div class="capability-item">
+                                            <strong>moderate_comments</strong>
+                                            <span class="capability-desc">Can approve/reject comments</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_comment</strong>
+                                            <span class="capability-desc">Can edit any comment</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>delete_comment</strong>
+                                            <span class="capability-desc">Can delete any comment</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>unfiltered_html</strong>
+                                            <span class="capability-desc">Can post HTML code</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Plugin & Custom Post Type Capabilities -->
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div class="capabilities-section">
+                        <h3 class="text-center mb-4">
+                            <i class="bi bi-puzzle me-2"></i>
+                            Plugin & Custom Post Type Capabilities
+                        </h3>
+                        
+                        <div class="row g-4">
+                            <!-- WooCommerce Capabilities -->
+                            <div class="col-lg-6">
+                                <div class="capability-group">
+                                    <h5 class="text-success mb-3">
+                                        <i class="bi bi-cart me-2"></i>
+                                        WooCommerce (E-commerce)
+                                    </h5>
+                                    <div class="capability-list">
+                                        <div class="capability-item">
+                                            <strong>manage_woocommerce</strong>
+                                            <span class="capability-desc">Full WooCommerce access</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_products</strong>
+                                            <span class="capability-desc">Can create/edit products</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_shop_orders</strong>
+                                            <span class="capability-desc">Can manage orders</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_shop_coupons</strong>
+                                            <span class="capability-desc">Can manage discount coupons</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>view_woocommerce_reports</strong>
+                                            <span class="capability-desc">Can view sales reports</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Ninja Forms Capabilities -->
+                            <div class="col-lg-6">
+                                <div class="capability-group">
+                                    <h5 class="text-info mb-3">
+                                        <i class="bi bi-file-earmark-text me-2"></i>
+                                        Ninja Forms
+                                    </h5>
+                                    <div class="capability-list">
+                                        <div class="capability-item">
+                                            <strong>manage_ninja_forms</strong>
+                                            <span class="capability-desc">Full forms management</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>view_nf_submissions</strong>
+                                            <span class="capability-desc">Can view form submissions</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_nf_submissions</strong>
+                                            <span class="capability-desc">Can edit form submissions</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>delete_nf_submissions</strong>
+                                            <span class="capability-desc">Can delete form submissions</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Custom Post Types -->
+                            <div class="col-lg-6">
+                                <div class="capability-group">
+                                    <h5 class="text-warning mb-3">
+                                        <i class="bi bi-collection me-2"></i>
+                                        Custom Post Types
+                                    </h5>
+                                    <div class="capability-list">
+                                        <div class="capability-item">
+                                            <strong>edit_portfolio</strong>
+                                            <span class="capability-desc">Can edit portfolio items</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_testimonials</strong>
+                                            <span class="capability-desc">Can edit testimonials</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_team_members</strong>
+                                            <span class="capability-desc">Can edit team member profiles</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_events</strong>
+                                            <span class="capability-desc">Can edit event listings</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_projects</strong>
+                                            <span class="capability-desc">Can edit project entries</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Other Common Plugins -->
+                            <div class="col-lg-6">
+                                <div class="capability-group">
+                                    <h5 class="text-danger mb-3">
+                                        <i class="bi bi-plug me-2"></i>
+                                        Other Common Plugins
+                                    </h5>
+                                    <div class="capability-list">
+                                        <div class="capability-item">
+                                            <strong>gravityforms_view_entries</strong>
+                                            <span class="capability-desc">Gravity Forms submissions access</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>manage_events_calendar</strong>
+                                            <span class="capability-desc">Events Calendar management</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>edit_booking</strong>
+                                            <span class="capability-desc">Booking system management</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>manage_seo</strong>
+                                            <span class="capability-desc">SEO plugin access</span>
+                                        </div>
+                                        <div class="capability-item">
+                                            <strong>view_analytics</strong>
+                                            <span class="capability-desc">Analytics dashboard access</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Capability Tips -->
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="alert alert-warning">
+                        <h6><i class="bi bi-lightbulb me-2"></i>Important Tips About Capabilities</h6>
+                        <ul class="mb-0">
+                            <li><strong>Dependent Capabilities:</strong> Some capabilities automatically include others (e.g., 'edit_posts' includes 'read')</li>
+                            <li><strong>Plugin Dependencies:</strong> Plugin capabilities only work when the plugin is active</li>
+                            <li><strong>Security First:</strong> Start with minimal capabilities and add more as needed</li>
+                            <li><strong>Test Thoroughly:</strong> Always test user permissions before going live</li>
+                            <li><strong>Regular Review:</strong> Periodically review and update user capabilities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usage Section -->
+    <section id="usage" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">How to Use</h2>
+                    <p class="lead text-muted mb-5">
+                        Learn how to effectively use all the features of Users Menu Manager Pro.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Dashboard Usage -->
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <h4><i class="bi bi-speedometer2 text-primary me-2"></i>Dashboard Overview</h4>
+                    <p>The main dashboard provides quick access to all plugin features:</p>
+                    <ul>
+                        <li><strong>Quick Stats:</strong> View total roles, users, forms viewers, and activity logs</li>
+                        <li><strong>Quick Actions:</strong> Direct links to manage roles, menus, forms access, and logs</li>
+                        <li><strong>User Management:</strong> Monitor administrators, editors, and recent user registrations</li>
+                        <li><strong>Recent Activity:</strong> Track all plugin activities and user actions</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="usage-image">
+                        <img src="dashboard.png" alt="Dashboard Preview" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Roles Manager Usage -->
+            <div class="row mb-5">
+                <div class="col-lg-6 order-lg-2">
+                    <h4><i class="bi bi-people-fill text-success me-2"></i>Roles Manager</h4>
+                    <p>Create and manage custom user roles:</p>
+                    <ul>
+                        <li><strong>Create New Role:</strong> Define role name, display name, and clone from existing roles</li>
+                        <li><strong>Capabilities:</strong> Select specific permissions from organized capability groups</li>
+                        <li><strong>Existing Roles:</strong> View, edit, and manage all current roles</li>
+                        <li><strong>Fix Existing Roles:</strong> Automatically add missing dependent capabilities</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="usage-image">
+                        <img src="roles-manager.png" alt="Roles Manager Preview" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Menu Manager Usage -->
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <h4><i class="bi bi-menu-button-wide text-warning me-2"></i>Menu Manager</h4>
+                    <p>Control admin menu visibility for different roles:</p>
+                    <ul>
+                        <li><strong>Role Selection:</strong> Choose which role to configure menu access for</li>
+                        <li><strong>Drag & Drop:</strong> Move menu items between available and hidden columns</li>
+                        <li><strong>Menu Preview:</strong> See exactly what menus will be visible for the selected role</li>
+                        <li><strong>Save Configuration:</strong> Apply menu restrictions and reset to defaults when needed</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="usage-image">
+                        <img src="menu-manager.png" alt="Menu Manager Preview" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ninja Forms Access Usage -->
+            <div class="row mb-5">
+                <div class="col-lg-6 order-lg-2">
+                    <h4><i class="bi bi-file-earmark-text text-info me-2"></i>Ninja Forms Access</h4>
+                    <p>Manage access to Ninja Forms submissions:</p>
+                    <ul>
+                        <li><strong>Forms Viewer Management:</strong> Control who can view form submissions</li>
+                        <li><strong>User Assignment:</strong> Assign and remove users from forms viewer role</li>
+                        <li><strong>Access Control:</strong> Restrict access to only form submissions, not form creation</li>
+                        <li><strong>Role Integration:</strong> Seamlessly works with your custom roles and capabilities</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="usage-image">
+                        <img src="ninja-forms.png" alt="Ninja Forms Access Preview" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Troubleshooting Section -->
+    <section id="troubleshooting" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">Troubleshooting Guide</h2>
+                    <p class="lead text-muted mb-5">
+                        Common issues and their solutions to help you resolve problems quickly.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="accordion" id="troubleshootingAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    <i class="bi bi-exclamation-triangle text-warning me-2"></i>
+                                    Plugin Not Loading
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#troubleshootingAccordion">
+                                <div class="accordion-body">
+                                    <strong>Problem:</strong> Plugin shows "Class not found" error or fails to load.<br>
+                                    <strong>Solution:</strong> 
+                                    <ul>
+                                        <li>Check if all plugin files are properly uploaded</li>
+                                        <li>Verify PHP version compatibility (7.4+)</li>
+                                        <li>Check WordPress error logs for specific error messages</li>
+                                        <li>Try deactivating and reactivating the plugin</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    <i class="bi bi-shield-x text-danger me-2"></i>
+                                    Permission Denied Errors
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#troubleshootingAccordion">
+                                <div class="accordion-body">
+                                    <strong>Problem:</strong> Users see "Sorry, you are not allowed to access this page."<br>
+                                    <strong>Solution:</strong>
+                                    <ul>
+                                        <li>Ensure user has the required capabilities</li>
+                                        <li>Check role assignments in WordPress Users section</li>
+                                        <li>Verify menu restrictions are not too restrictive</li>
+                                        <li>Check if user role has necessary permissions</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    <i class="bi bi-menu-button text-info me-2"></i>
+                                    Menu Manager Issues
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#troubleshootingAccordion">
+                                <div class="accordion-body">
+                                    <strong>Problem:</strong> Menu preview not showing or menus appearing in wrong location.<br>
+                                    <strong>Solution:</strong>
+                                    <ul>
+                                        <li>Clear browser cache and refresh page</li>
+                                        <li>Check if JavaScript is enabled</li>
+                                        <li>Verify jQuery and jQuery UI are loaded</li>
+                                        <li>Check browser console for JavaScript errors</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                    <i class="bi bi-file-earmark-text text-success me-2"></i>
+                                    Ninja Forms Integration Issues
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#troubleshootingAccordion">
+                                <div class="accordion-body">
+                                    <strong>Problem:</strong> Users not appearing in Ninja Forms module or access issues.<br>
+                                    <strong>Solution:</strong>
+                                    <ul>
+                                        <li>Ensure Ninja Forms plugin is active</li>
+                                        <li>Check if user has 'view_nf_submissions' capability</li>
+                                        <li>Verify user meta 'ummp_ninja_forms_access' is set</li>
+                                        <li>Try reassigning the forms viewer role</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                                    <i class="bi bi-database text-secondary me-2"></i>
+                                    Database Connection Issues
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#troubleshootingAccordion">
+                                <div class="accordion-body">
+                                    <strong>Problem:</strong> Database errors or tables not created.<br>
+                                    <strong>Solution:</strong>
+                                    <ul>
+                                        <li>Check WordPress database connection</li>
+                                        <li>Verify database user permissions</li>
+                                        <li>Try deactivating and reactivating plugin</li>
+                                        <li>Check if database tables exist in wp_options</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="troubleshooting-tips">
+                        <h4><i class="bi bi-lightbulb text-warning me-2"></i>Quick Fix Tips</h4>
+                        
+                        <div class="tip-card mb-3">
+                            <h6><i class="bi bi-arrow-right text-primary me-2"></i>Clear Cache</h6>
+                            <p class="small text-muted">Clear browser cache, WordPress cache, and any caching plugin cache.</p>
+                        </div>
+                        
+                        <div class="tip-card mb-3">
+                            <h6><i class="bi bi-arrow-right text-primary me-2"></i>Check Permissions</h6>
+                            <p class="small text-muted">Ensure your user account has administrator privileges.</p>
+                        </div>
+                        
+                        <div class="tip-card mb-3">
+                            <h6><i class="bi bi-arrow-right text-primary me-2"></i>Plugin Conflicts</h6>
+                            <p class="small text-muted">Temporarily deactivate other plugins to check for conflicts.</p>
+                        </div>
+                        
+                        <div class="tip-card mb-3">
+                            <h6><i class="bi bi-arrow-right text-primary me-2"></i>Theme Issues</h6>
+                            <p class="small text-muted">Switch to default WordPress theme to rule out theme conflicts.</p>
+                        </div>
+                        
+                        <div class="tip-card mb-3">
+                            <h6><i class="bi bi-arrow-right text-primary me-2"></i>PHP Memory</h6>
+                            <p class="small text-muted">Increase PHP memory limit if you encounter memory-related errors.</p>
+                        </div>
+                        
+                        <div class="alert alert-warning mt-4">
+                            <h6><i class="bi bi-exclamation-triangle me-2"></i>Important Note</h6>
+                            <p class="mb-0 small">Always backup your WordPress site before making significant changes to user roles and capabilities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">Need Help?</h2>
+                    <p class="lead text-muted mb-5">
+                        If you're experiencing issues that aren't covered in this documentation, 
+                        our support team is here to help you.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="contact-card text-center p-4">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-envelope-fill text-primary"></i>
+                        </div>
+                        <h5>Email Support</h5>
+                        <p class="text-muted">Get direct support from our development team</p>
+                        <a href="mailto:maharhamza200019@gmail.com" class="btn btn-primary">
+                            <i class="bi bi-envelope me-2"></i>Contact Support
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="contact-card text-center p-4">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-book text-success"></i>
+                        </div>
+                        <h5>Documentation</h5>
+                        <p class="text-muted">Comprehensive guides and tutorials</p>
+                        <a href="#overview" class="btn btn-success">
+                            <i class="bi bi-book me-2"></i>Read Docs
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="contact-card text-center p-4">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-github text-dark"></i>
+                        </div>
+                        <h5>GitHub</h5>
+                        <p class="text-muted">Report bugs and request features</p>
+                        <a href="https://github.com/codewithhamza1/users-menu-manager-pro-for-wordpress" target="_blank" class="btn btn-dark">
+                            <i class="bi bi-github me-2"></i>Visit GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto">
+                    <div class="alert alert-info">
+                        <h6><i class="bi bi-info-circle me-2"></i>Support Information</h6>
+                        <p class="mb-2"><strong>Primary Contact:</strong> <a href="mailto:maharhamza200019@gmail.com">maharhamza200019@gmail.com</a></p>
+                        <p class="mb-0"><strong>Response Time:</strong> We typically respond within 24-48 hours during business days.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 Users Menu Manager Pro. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">Developed with <i class="bi bi-heart-fill text-danger"></i> for WordPress</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

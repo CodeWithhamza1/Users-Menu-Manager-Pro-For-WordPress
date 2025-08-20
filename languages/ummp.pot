@@ -1,0 +1,884 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Users Menu Manager Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WordPress\n"
+"X-Domain: ummp\n"
+
+#: users-menu-manager-pro.php:70
+msgid "Are you sure you want to delete this role?"
+msgstr ""
+
+#: users-menu-manager-pro.php:71
+msgid "Processing..."
+msgstr ""
+
+#: users-menu-manager-pro.php:72
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: users-menu-manager-pro.php:73
+msgid "Operation completed successfully."
+msgstr ""
+
+#: includes/class-ummp-roles.php:92
+msgid "WordPress Core"
+msgstr ""
+
+#: includes/class-ummp-roles.php:96
+msgid "Posts & Pages"
+msgstr ""
+
+#: includes/class-ummp-roles.php:100
+msgid "Media"
+msgstr ""
+
+#: includes/class-ummp-roles.php:104
+msgid "Users"
+msgstr ""
+
+#: includes/class-ummp-roles.php:108
+msgid "Comments"
+msgstr ""
+
+#: includes/class-ummp-roles.php:112
+msgid "Themes"
+msgstr ""
+
+#: includes/class-ummp-roles.php:116
+msgid "Plugins"
+msgstr ""
+
+#: includes/class-ummp-roles.php:120
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-ummp-roles.php:124
+msgid "Ninja Forms"
+msgstr ""
+
+#: includes/class-ummp-roles.php:128
+msgid "Gravity Forms"
+msgstr ""
+
+#: includes/class-ummp-roles.php:132
+msgid "Elementor"
+msgstr ""
+
+#: includes/class-ummp-roles.php:136
+msgid "Custom"
+msgstr ""
+
+#: includes/class-ummp-roles.php:203
+msgid "Role name and display name are required."
+msgstr ""
+
+#: includes/class-ummp-roles.php:210
+msgid "A role with this name already exists."
+msgstr ""
+
+#: includes/class-ummp-roles.php:217
+msgid "Failed to create role."
+msgstr ""
+
+#: includes/class-ummp-roles.php:266
+msgid "Role not found."
+msgstr ""
+
+#: includes/class-ummp-roles.php:305
+msgid "Cannot delete a default WordPress role."
+msgstr ""
+
+#: includes/class-ummp-roles.php:310
+msgid "Role not found."
+msgstr ""
+
+#: includes/class-ummp-roles.php:352
+msgid "Source role not found."
+msgstr ""
+
+#: includes/class-ummp-roles.php:365
+msgid "User not found."
+msgstr ""
+
+#: includes/class-ummp-roles.php:370
+msgid "Role not found."
+msgstr ""
+
+#: includes/class-ummp-roles.php:407
+msgid "User ID %d: %s"
+msgstr ""
+
+#: includes/class-ummp-roles.php:446
+msgid "Invalid JSON data."
+msgstr ""
+
+#: includes/class-ummp-roles.php:450
+msgid "Invalid import format."
+msgstr ""
+
+#: includes/class-ummp-roles.php:492
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/class-ummp-roles.php:506
+msgid "Role created successfully."
+msgstr ""
+
+#: includes/class-ummp-roles.php:509
+msgid "Role updated successfully."
+msgstr ""
+
+#: includes/class-ummp-roles.php:531
+msgid "Role deleted successfully."
+msgstr ""
+
+#: includes/class-ummp-roles.php:553
+msgid "Role cloned successfully."
+msgstr ""
+
+#: includes/class-ummp-roles.php:575
+msgid "Role assigned successfully."
+msgstr ""
+
+#: includes/class-ummp-admin.php:47
+msgid "Users Menu Manager Pro"
+msgstr ""
+
+#: includes/class-ummp-admin.php:48
+msgid "Menu Manager Pro"
+msgstr ""
+
+#: includes/class-ummp-admin.php:57
+msgid "Roles Manager"
+msgstr ""
+
+#: includes/class-ummp-admin.php:66
+msgid "Users Assignment"
+msgstr ""
+
+#: includes/class-ummp-admin.php:75
+msgid "Menu Manager"
+msgstr ""
+
+#: includes/class-ummp-admin.php:84
+msgid "Ninja Forms Access"
+msgstr ""
+
+#: includes/class-ummp-admin.php:93
+msgid "Export/Import"
+msgstr ""
+
+#: includes/class-ummp-admin.php:102
+msgid "Activity Logs"
+msgstr ""
+
+#: includes/class-ummp-admin.php:121
+msgid "Quick Stats"
+msgstr ""
+
+#: includes/class-ummp-admin.php:129
+msgid "Total Roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:133
+msgid "Total Users"
+msgstr ""
+
+#: includes/class-ummp-admin.php:137
+msgid "Activity Logs"
+msgstr ""
+
+#: includes/class-ummp-admin.php:144
+msgid "Quick Actions"
+msgstr ""
+
+#: includes/class-ummp-admin.php:148
+msgid "Manage Roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:153
+msgid "Assign Users"
+msgstr ""
+
+#: includes/class-ummp-admin.php:158
+msgid "Menu Manager"
+msgstr ""
+
+#: includes/class-ummp-admin.php:163
+msgid "Export/Import"
+msgstr ""
+
+#: includes/class-ummp-admin.php:170
+msgid "Recent Activity"
+msgstr ""
+
+#: includes/class-ummp-admin.php:175
+msgid "Unknown User"
+msgstr ""
+
+#: includes/class-ummp-admin.php:182
+msgid "ago"
+msgstr ""
+
+#: includes/class-ummp-admin.php:185
+msgid "No recent activity."
+msgstr ""
+
+#: includes/class-ummp-admin.php:199
+msgid "Create New Role"
+msgstr ""
+
+#: includes/class-ummp-admin.php:202
+msgid "Role Name (slug)"
+msgstr ""
+
+#: includes/class-ummp-admin.php:204
+msgid "e.g., custom_editor"
+msgstr ""
+
+#: includes/class-ummp-admin.php:207
+msgid "Display Name"
+msgstr ""
+
+#: includes/class-ummp-admin.php:209
+msgid "e.g., Custom Editor"
+msgstr ""
+
+#: includes/class-ummp-admin.php:212
+msgid "Clone from existing role (optional)"
+msgstr ""
+
+#: includes/class-ummp-admin.php:214
+msgid "Start from scratch"
+msgstr ""
+
+#: includes/class-ummp-admin.php:222
+msgid "Create Role"
+msgstr ""
+
+#: includes/class-ummp-admin.php:229
+msgid "Capabilities"
+msgstr ""
+
+#: includes/class-ummp-admin.php:232
+msgid "Search capabilities..."
+msgstr ""
+
+#: includes/class-ummp-admin.php:250
+msgid "Existing Roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:254
+msgid "Role Name"
+msgstr ""
+
+#: includes/class-ummp-admin.php:255
+msgid "Display Name"
+msgstr ""
+
+#: includes/class-ummp-admin.php:256
+msgid "Capabilities"
+msgstr ""
+
+#: includes/class-ummp-admin.php:257
+msgid "Users"
+msgstr ""
+
+#: includes/class-ummp-admin.php:258
+msgid "Actions"
+msgstr ""
+
+#: includes/class-ummp-admin.php:267
+msgid "capabilities"
+msgstr ""
+
+#: includes/class-ummp-admin.php:268
+msgid "users"
+msgstr ""
+
+#: includes/class-ummp-admin.php:272
+msgid "Edit"
+msgstr ""
+
+#: includes/class-ummp-admin.php:276
+msgid "Clone"
+msgstr ""
+
+#: includes/class-ummp-admin.php:281
+msgid "Delete"
+msgstr ""
+
+#: includes/class-ummp-admin.php:292
+msgid "Edit Role"
+msgstr ""
+
+#: includes/class-ummp-admin.php:300
+msgid "Display Name"
+msgstr ""
+
+#: includes/class-ummp-admin.php:303
+msgid "Capabilities"
+msgstr ""
+
+#: includes/class-ummp-admin.php:310
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-ummp-admin.php:311
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-ummp-admin.php:324
+msgid "Assign Role to User"
+msgstr ""
+
+#: includes/class-ummp-admin.php:327
+msgid "Search User"
+msgstr ""
+
+#: includes/class-ummp-admin.php:329
+msgid "Type username or email..."
+msgstr ""
+
+#: includes/class-ummp-admin.php:333
+msgid "Select Role"
+msgstr ""
+
+#: includes/class-ummp-admin.php:335
+msgid "Choose a role..."
+msgstr ""
+
+#: includes/class-ummp-admin.php:344
+msgid "Assign Role"
+msgstr ""
+
+#: includes/class-ummp-admin.php:350
+msgid "Bulk Role Assignment"
+msgstr ""
+
+#: includes/class-ummp-admin.php:353
+msgid "Filter Users"
+msgstr ""
+
+#: includes/class-ummp-admin.php:356
+msgid "All roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:364
+msgid "Search users..."
+msgstr ""
+
+#: includes/class-ummp-admin.php:366
+msgid "Load Users"
+msgstr ""
+
+#: includes/class-ummp-admin.php:371
+msgid "Select Users"
+msgstr ""
+
+#: includes/class-ummp-admin.php:373
+msgid "Click \"Load Users\" to display users for selection."
+msgstr ""
+
+#: includes/class-ummp-admin.php:376
+msgid "Assign Role"
+msgstr ""
+
+#: includes/class-ummp-admin.php:378
+msgid "Choose a role..."
+msgstr ""
+
+#: includes/class-ummp-admin.php:386
+msgid "Bulk Assign Roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:393
+msgid "Users by Role"
+msgstr ""
+
+#: includes/class-ummp-admin.php:407
+msgid "Edit"
+msgstr ""
+
+#: includes/class-ummp-admin.php:414
+msgid "View all %d users with this role"
+msgstr ""
+
+#: includes/class-ummp-admin.php:417
+msgid "No users with this role."
+msgstr ""
+
+#: includes/class-ummp-admin.php:432
+msgid "Role-based Menu Restrictions"
+msgstr ""
+
+#: includes/class-ummp-admin.php:433
+msgid "Drag and drop menu items to configure which menus are visible for each role."
+msgstr ""
+
+#: includes/class-ummp-admin.php:437
+msgid "Configure menus for role:"
+msgstr ""
+
+#: includes/class-ummp-admin.php:439
+msgid "Select a role..."
+msgstr ""
+
+#: includes/class-ummp-admin.php:451
+msgid "Available Menus"
+msgstr ""
+
+#: includes/class-ummp-admin.php:457
+msgid "Hidden Menus"
+msgstr ""
+
+#: includes/class-ummp-admin.php:464
+msgid "Save Menu Configuration"
+msgstr ""
+
+#: includes/class-ummp-admin.php:467
+msgid "Reset to Default"
+msgstr ""
+
+#: includes/class-ummp-admin.php:475
+msgid "Menu Preview"
+msgstr ""
+
+#: includes/class-ummp-admin.php:477
+msgid "Select a role to preview the menu structure."
+msgstr ""
+
+#: includes/class-ummp-admin.php:488
+msgid "Forms Viewer Management"
+msgstr ""
+
+#: includes/class-ummp-admin.php:489
+msgid "Manage users who can view Ninja Forms submissions with restricted access."
+msgstr ""
+
+#: includes/class-ummp-admin.php:496
+msgid "Ninja Forms is active and ready for integration."
+msgstr ""
+
+#: includes/class-ummp-admin.php:502
+msgid "Ninja Forms plugin is not active. Please install and activate Ninja Forms to use this feature."
+msgstr ""
+
+#: includes/class-ummp-admin.php:515
+msgid "Export Roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:516
+msgid "Export roles and their capabilities to a JSON file for backup or migration."
+msgstr ""
+
+#: includes/class-ummp-admin.php:520
+msgid "Select Roles to Export"
+msgstr ""
+
+#: includes/class-ummp-admin.php:523
+msgid "Export All Roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:533
+msgid "Export Roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:539
+msgid "Import Roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:540
+msgid "Import roles from a JSON file. You can choose to overwrite existing roles or skip them."
+msgstr ""
+
+#: includes/class-ummp-admin.php:544
+msgid "Select JSON File"
+msgstr ""
+
+#: includes/class-ummp-admin.php:548
+msgid "Overwrite existing roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:551
+msgid "If checked, existing roles with the same name will be replaced. Otherwise, they will be skipped."
+msgstr ""
+
+#: includes/class-ummp-admin.php:555
+msgid "Preview Import Data"
+msgstr ""
+
+#: includes/class-ummp-admin.php:557
+msgid "Select a file to preview its contents..."
+msgstr ""
+
+#: includes/class-ummp-admin.php:560
+msgid "Import Roles"
+msgstr ""
+
+#: includes/class-ummp-admin.php:566
+msgid "Recent Import/Export Activity"
+msgstr ""
+
+#: includes/class-ummp-admin.php:582
+msgid "Date"
+msgstr ""
+
+#: includes/class-ummp-admin.php:583
+msgid "Action"
+msgstr ""
+
+#: includes/class-ummp-admin.php:584
+msgid "User"
+msgstr ""
+
+#: includes/class-ummp-admin.php:585
+msgid "Details"
+msgstr ""
+
+#: includes/class-ummp-admin.php:593
+msgid "Unknown User"
+msgstr ""
+
+#: includes/class-ummp-admin.php:599
+msgid "Export"
+msgstr ""
+
+#: includes/class-ummp-admin.php:601
+msgid "Import"
+msgstr ""
+
+#: includes/class-ummp-admin.php:608
+msgid "%d imported, %d skipped"
+msgstr ""
+
+#: includes/class-ummp-admin.php:612
+msgid "Roles exported successfully"
+msgstr ""
+
+#: includes/class-ummp-admin.php:620
+msgid "No import/export activity found."
+msgstr ""
+
+#: includes/class-ummp-admin.php:634
+msgid "Recent Activity"
+msgstr ""
+
+#: includes/class-ummp-admin.php:639
+msgid "Clear All Logs"
+msgstr ""
+
+#: includes/class-ummp-admin.php:642
+msgid "Export Logs"
+msgstr ""
+
+#: includes/class-ummp-admin.php:652
+msgid "Date/Time"
+msgstr ""
+
+#: includes/class-ummp-admin.php:653
+msgid "User"
+msgstr ""
+
+#: includes/class-ummp-admin.php:654
+msgid "Action"
+msgstr ""
+
+#: includes/class-ummp-admin.php:655
+msgid "Details"
+msgstr ""
+
+#: includes/class-ummp-admin.php:656
+msgid "IP Address"
+msgstr ""
+
+#: includes/class-ummp-admin.php:661
+msgid "Unknown User"
+msgstr ""
+
+#: includes/class-ummp-admin.php:681
+msgid "No activity logs found."
+msgstr ""
+
+#: includes/class-ummp-admin.php:708
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/class-ummp-admin.php:775
+msgid "Menu restrictions saved successfully."
+msgstr ""
+
+#: includes/class-ummp-admin.php:787
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:116
+msgid "Form Submissions"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:124
+msgid "My Profile"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:133
+msgid "Logout"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:145
+msgid "Form Submissions"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:146
+msgid "Ninja Forms plugin is not active. Please contact your administrator."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:158
+msgid "Debug Info:"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:158
+msgid "Forms found: %d"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:167
+msgid "Select Form:"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:169
+msgid "All Forms"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:178
+msgid "Search:"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:180
+msgid "Search submissions..."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:184
+msgid "From:"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:188
+msgid "To:"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:192
+msgid "Filter"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:195
+msgid "Clear"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:238
+msgid "Showing %d submissions"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:243
+msgid "Date"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:245
+msgid "Form"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:255
+msgid "Content Preview"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:257
+msgid "Actions"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:267
+msgid "Unknown Form"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:295
+msgid "View Details"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:303
+msgid "No submissions found matching your criteria."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:306
+msgid "View All Submissions"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:313
+msgid "No forms found. Please contact your administrator."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:321
+msgid "Submission Details"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:328
+msgid "Close"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:478
+msgid "User not found."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:504
+msgid "User not found."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:534
+msgid "Create New Forms Viewer"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:537
+msgid "Username"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:539
+msgid "Enter username"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:542
+msgid "Email"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:544
+msgid "Enter email address"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:547
+msgid "Password"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:549
+msgid "Leave empty for auto-generated password"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:552
+msgid "Create Forms Viewer"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:558
+msgid "Convert Existing User"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:561
+msgid "Select User"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:563
+msgid "Choose user..."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:573
+msgid "Convert to Forms Viewer"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:579
+msgid "Current Forms Viewers"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:585
+msgid "Avatar"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:586
+msgid "Username"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:587
+msgid "Display Name"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:588
+msgid "Email"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:589
+msgid "Registered"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:590
+msgid "Actions"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:598
+msgid "Edit"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:602
+msgid "Remove Access"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:608
+msgid "No forms viewers found."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:614
+msgid "How It Works"
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:616
+msgid "Forms viewers can only access the Form Submissions page and their profile."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:617
+msgid "All other admin menus and pages are hidden or blocked."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:618
+msgid "Viewers are automatically redirected to submissions page after login."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:619
+msgid "They can view and search through form submissions but cannot edit or delete them."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:620
+msgid "The interface is clean and minimal, showing only relevant information."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:633
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:647
+msgid "Forms viewer created successfully."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:663
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:675
+msgid "User converted to forms viewer successfully."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:687
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:699
+msgid "Forms viewer access removed successfully."
+msgstr ""
+
+#: includes/class-ummp-ninja-viewer.php:711
+msgid "Insufficient permissions."
+msgstr ""

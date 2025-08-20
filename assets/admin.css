@@ -1,0 +1,1151 @@
+/* ========================================
+   Users Menu Manager Pro - Admin Styles
+   ======================================== */
+
+/* CSS Variables for consistent theming */
+:root {
+    --ummp-primary: #667eea;
+    --ummp-primary-light: #764ba2;
+    --ummp-secondary: #f093fb;
+    --ummp-secondary-light: #f5576c;
+    --ummp-success: #4facfe;
+    --ummp-success-light: #00f2fe;
+    --ummp-warning: #fa709a;
+    --ummp-warning-light: #fee140;
+    --ummp-danger: #ff9a9e;
+    --ummp-danger-light: #fecfef;
+    --ummp-neutral: #a8edea;
+    --ummp-neutral-light: #fed6e3;
+    
+    /* Soft background colors */
+    --ummp-bg-primary: #f8f9ff;
+    --ummp-bg-secondary: #f0f2ff;
+    --ummp-bg-success: #f0f9ff;
+    --ummp-bg-warning: #fffbf0;
+    --ummp-bg-danger: #fff5f5;
+    --ummp-bg-neutral: #f7fafc;
+    
+    /* Border colors */
+    --ummp-border: #e2e8f0;
+    --ummp-border-light: #f1f5f9;
+    --ummp-border-dark: #cbd5e1;
+    
+    /* Text colors */
+    --ummp-text: #1e293b;
+    --ummp-text-light: #64748b;
+    --ummp-text-lighter: #94a3b8;
+    
+    /* Shadow */
+    --ummp-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --ummp-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --ummp-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* ========================================
+   General Admin Styles
+   ======================================== */
+
+.ummp-admin {
+    background: var(--ummp-bg-neutral);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.ummp-admin h1 {
+    color: var(--ummp-text);
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, var(--ummp-primary), var(--ummp-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.ummp-admin h2 {
+    color: var(--ummp-text);
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ummp-admin h2 .dashicons {
+    color: var(--ummp-primary);
+    font-size: 1.2em;
+}
+
+.ummp-admin h3 {
+    color: var(--ummp-text);
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* ========================================
+   Dashboard Grid Layout
+   ======================================== */
+
+.ummp-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.ummp-card {
+    background: white;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: var(--ummp-shadow);
+    border: 1px solid var(--ummp-border-light);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.ummp-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--ummp-primary), var(--ummp-secondary));
+}
+
+.ummp-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--ummp-shadow-lg);
+    border-color: var(--ummp-border);
+}
+
+/* Card specific styles */
+.ummp-card-stats {
+    background: linear-gradient(135deg, var(--ummp-bg-primary), var(--ummp-bg-secondary));
+}
+
+.ummp-card-actions {
+    background: linear-gradient(135deg, var(--ummp-bg-success), var(--ummp-bg-neutral));
+}
+
+.ummp-card-users {
+    background: linear-gradient(135deg, var(--ummp-bg-warning), var(--ummp-bg-neutral));
+}
+
+.ummp-card-activity {
+    background: linear-gradient(135deg, var(--ummp-bg-neutral), var(--ummp-bg-primary));
+}
+
+.ummp-card-full {
+    grid-column: 1 / -1;
+}
+
+/* ========================================
+   Stats Section
+   ======================================== */
+
+.ummp-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.ummp-stat {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    border: 1px solid var(--ummp-border-light);
+    transition: all 0.3s ease;
+}
+
+.ummp-stat:hover {
+    transform: scale(1.05);
+    background: white;
+    box-shadow: var(--ummp-shadow);
+}
+
+.ummp-stat-number {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--ummp-primary);
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, var(--ummp-primary), var(--ummp-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.ummp-stat-label {
+    color: var(--ummp-text-light);
+    font-size: 0.9em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ========================================
+   Quick Actions
+   ======================================== */
+
+.ummp-quick-actions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.ummp-quick-action {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--ummp-text);
+    border: 1px solid var(--ummp-border-light);
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.ummp-quick-action:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: var(--ummp-shadow);
+    border-color: var(--ummp-primary);
+    color: var(--ummp-primary);
+}
+
+.ummp-quick-action .dashicons {
+    font-size: 1.2em;
+    color: var(--ummp-primary);
+}
+
+/* ========================================
+   User Management
+   ======================================== */
+
+.ummp-user-management {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ummp-user-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.ummp-user-stat {
+    text-align: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 1px solid var(--ummp-border-light);
+    transition: all 0.3s ease;
+}
+
+.ummp-user-stat:hover {
+    transform: scale(1.05);
+    background: white;
+    box-shadow: var(--ummp-shadow);
+}
+
+.ummp-user-count {
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--ummp-primary);
+    margin-bottom: 5px;
+}
+
+.ummp-user-role {
+    display: block;
+    color: var(--ummp-text-light);
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ummp-recent-users h4 {
+    margin: 0 0 15px 0;
+    color: var(--ummp-text);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.ummp-user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ummp-user-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    border: 1px solid var(--ummp-border-light);
+    transition: all 0.3s ease;
+}
+
+.ummp-user-item:hover {
+    background: white;
+    box-shadow: var(--ummp-shadow);
+}
+
+.ummp-user-avatar img {
+    border-radius: 50%;
+}
+
+.ummp-user-name {
+    flex: 1;
+    font-weight: 500;
+    color: var(--ummp-text);
+}
+
+.ummp-user-date {
+    font-size: 0.8em;
+    color: var(--ummp-text-lighter);
+}
+
+.ummp-no-users {
+    color: var(--ummp-text-lighter);
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+/* ========================================
+   System Status
+   ======================================== */
+
+.ummp-status-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ummp-status-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid var(--ummp-border-light);
+    transition: all 0.3s ease;
+}
+
+.ummp-status-item:hover {
+    transform: translateX(5px);
+    box-shadow: var(--ummp-shadow);
+}
+
+.ummp-status-item .dashicons {
+    font-size: 1.2em;
+    width: auto;
+    height: auto;
+}
+
+.status-text {
+    flex: 1;
+    font-weight: 500;
+    color: var(--ummp-text);
+}
+
+.status-indicator {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Status colors */
+.status-ok {
+    background: linear-gradient(135deg, var(--ummp-success), var(--ummp-success-light));
+    color: white;
+}
+
+.status-warning {
+    background: linear-gradient(135deg, var(--ummp-warning), var(--ummp-warning-light));
+    color: white;
+}
+
+.status-neutral {
+    background: linear-gradient(135deg, var(--ummp-neutral), var(--ummp-neutral-light));
+    color: var(--ummp-text);
+}
+
+/* ========================================
+   Recent Activity
+   ======================================== */
+
+.ummp-activity-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.ummp-activity-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--ummp-border-light);
+    transition: all 0.3s ease;
+}
+
+.ummp-activity-item:hover {
+    background: var(--ummp-bg-primary);
+    transform: translateX(5px);
+    box-shadow: var(--ummp-shadow);
+}
+
+.ummp-activity-user {
+    font-weight: 600;
+    color: var(--ummp-primary);
+    min-width: 120px;
+}
+
+.ummp-activity-action {
+    flex: 1;
+    color: var(--ummp-text);
+    font-size: 0.9em;
+}
+
+.ummp-activity-time {
+    color: var(--ummp-text-lighter);
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.ummp-no-activity {
+    text-align: center;
+    color: var(--ummp-text-lighter);
+    font-style: italic;
+    padding: 40px 20px;
+}
+
+/* ========================================
+   Roles Manager Styles
+   ======================================== */
+
+.ummp-roles-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+}
+
+.ummp-capabilities-card {
+    grid-column: 1 / -1;
+}
+
+.ummp-capabilities-search {
+    margin-bottom: 20px;
+}
+
+.ummp-capabilities-search input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid var(--ummp-border);
+    border-radius: 8px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.ummp-capabilities-search input:focus {
+    outline: none;
+    border-color: var(--ummp-primary);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.ummp-capabilities-groups {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.ummp-capability-group {
+    margin-bottom: 20px;
+    border: 1px solid var(--ummp-border-light);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ummp-group-title {
+    background: var(--ummp-bg-primary);
+    padding: 15px 20px;
+    margin: 0;
+    border-bottom: 1px solid var(--ummp-border-light);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ummp-group-title:hover {
+    background: var(--ummp-bg-secondary);
+}
+
+.ummp-group-title label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--ummp-text);
+}
+
+.ummp-capabilities-list {
+    padding: 20px;
+    background: white;
+}
+
+.ummp-capability-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.ummp-capability-item:hover {
+    background: var(--ummp-bg-neutral);
+    padding-left: 10px;
+    border-radius: 6px;
+}
+
+.ummp-capability-name {
+    color: var(--ummp-text);
+    font-size: 0.9em;
+}
+
+/* ========================================
+   Menu Manager Styles
+   ======================================== */
+
+.ummp-menus-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    align-items: start;
+}
+
+.ummp-menu-manager {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    border: 1px solid var(--ummp-border-light);
+}
+
+.ummp-menu-preview-card {
+    position: sticky;
+    top: 20px;
+}
+
+.ummp-role-selector {
+    margin-bottom: 25px;
+}
+
+.ummp-role-selector label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--ummp-text);
+}
+
+.ummp-role-selector select {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid var(--ummp-border);
+    border-radius: 8px;
+    font-size: 1em;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.ummp-role-selector select:focus {
+    outline: none;
+    border-color: var(--ummp-primary);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.ummp-menu-configuration {
+    margin-top: 25px;
+}
+
+.ummp-menu-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.ummp-menu-column h3 {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--ummp-border-light);
+    color: var(--ummp-primary);
+}
+
+.ummp-menu-list {
+    min-height: 300px;
+    border: 2px dashed var(--ummp-border);
+    border-radius: 8px;
+    padding: 20px;
+    background: var(--ummp-bg-neutral);
+}
+
+.ummp-menu-list.ui-sortable-helper {
+    background: white;
+    box-shadow: var(--ummp-shadow-lg);
+    border: 2px solid var(--ummp-primary);
+}
+
+.ummp-menu-list.ui-sortable-placeholder {
+    background: var(--ummp-bg-primary);
+    border: 2px dashed var(--ummp-primary);
+    opacity: 0.5;
+}
+
+.ummp-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: white;
+    border: 1px solid var(--ummp-border-light);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    cursor: move;
+    transition: all 0.3s ease;
+}
+
+.ummp-menu-item:hover {
+    background: var(--ummp-bg-primary);
+    border-color: var(--ummp-primary);
+    transform: translateY(-1px);
+    box-shadow: var(--ummp-shadow);
+}
+
+.ummp-menu-item .dashicons {
+    color: var(--ummp-primary);
+    font-size: 1.1em;
+}
+
+.ummp-menu-item .menu-title {
+    flex: 1;
+    font-weight: 500;
+    color: var(--ummp-text);
+}
+
+.ummp-menu-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.ummp-menu-actions .button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.ummp-menu-actions .button-primary {
+    background: var(--ummp-primary);
+    border-color: var(--ummp-primary);
+}
+
+.ummp-menu-actions .button-primary:hover {
+    background: var(--ummp-primary-light);
+    border-color: var(--ummp-primary-light);
+    transform: translateY(-2px);
+    box-shadow: var(--ummp-shadow);
+}
+
+/* ========================================
+   Menu Preview
+   ======================================== */
+
+.ummp-menu-preview {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    border: 1px solid var(--ummp-border-light);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ummp-menu-preview p {
+    color: var(--ummp-text-lighter);
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+.ummp-menu-preview-content {
+    width: 100%;
+}
+
+.ummp-menu-preview-role {
+    background: var(--ummp-bg-primary);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid var(--ummp-border-light);
+}
+
+.ummp-menu-preview-role h4 {
+    margin: 0;
+    color: var(--ummp-primary);
+    font-size: 1.1em;
+}
+
+.ummp-menu-preview-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ummp-menu-preview-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: var(--ummp-bg-neutral);
+    border-radius: 6px;
+    border: 1px solid var(--ummp-border-light);
+}
+
+.ummp-menu-preview-item .dashicons {
+    color: var(--ummp-primary);
+    font-size: 1em;
+}
+
+.ummp-menu-preview-item .menu-title {
+    flex: 1;
+    font-size: 0.9em;
+    color: var(--ummp-text);
+}
+
+.ummp-menu-preview-item.hidden {
+    opacity: 0.5;
+    background: var(--ummp-bg-warning);
+    border-color: var(--ummp-border-dark);
+}
+
+/* ========================================
+   Forms and Tables
+   ======================================== */
+
+.ummp-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ummp-form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ummp-form-row label {
+    font-weight: 600;
+    color: var(--ummp-text);
+}
+
+.ummp-form-row input,
+.ummp-form-row select,
+.ummp-form-row textarea {
+    padding: 12px 16px;
+    border: 2px solid var(--ummp-border);
+    border-radius: 8px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.ummp-form-row input:focus,
+.ummp-form-row select:focus,
+.ummp-form-row textarea:focus {
+    outline: none;
+    border-color: var(--ummp-primary);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.ummp-form-row .description {
+    color: var(--ummp-text-lighter);
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+/* ========================================
+   Tables
+   ======================================== */
+
+.ummp-roles-table-container {
+    overflow-x: auto;
+}
+
+.ummp-roles-table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--ummp-shadow);
+}
+
+.ummp-roles-table th {
+    background: var(--ummp-bg-primary);
+    color: var(--ummp-text);
+    font-weight: 600;
+    padding: 15px;
+    border-bottom: 2px solid var(--ummp-border);
+}
+
+.ummp-roles-table td {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.ummp-roles-table tbody tr:hover {
+    background: var(--ummp-bg-neutral);
+}
+
+.ummp-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.ummp-actions .button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85em;
+    transition: all 0.3s ease;
+}
+
+.ummp-actions .button:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--ummp-shadow);
+}
+
+/* ========================================
+   Buttons
+   ======================================== */
+
+.button {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--ummp-shadow);
+}
+
+.button-primary {
+    background: linear-gradient(135deg, var(--ummp-primary), var(--ummp-secondary));
+    border-color: var(--ummp-primary);
+}
+
+.button-primary:hover {
+    background: linear-gradient(135deg, var(--ummp-primary-light), var(--ummp-secondary-light));
+    border-color: var(--ummp-primary-light);
+}
+
+.button-secondary {
+    background: var(--ummp-neutral);
+    border-color: var(--ummp-neutral);
+    color: var(--ummp-text);
+}
+
+.button-secondary:hover {
+    background: var(--ummp-neutral-light);
+    border-color: var(--ummp-neutral-light);
+}
+
+/* ========================================
+   Modals
+   ======================================== */
+
+.ummp-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100000;
+}
+
+.ummp-modal-content {
+    background: white;
+    border-radius: 16px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: var(--ummp-shadow-xl);
+}
+
+.ummp-modal-header {
+    padding: 25px 25px 20px;
+    border-bottom: 1px solid var(--ummp-border-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ummp-modal-header h2 {
+    margin: 0;
+    color: var(--ummp-primary);
+}
+
+.ummp-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: var(--ummp-text-lighter);
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.ummp-modal-close:hover {
+    background: var(--ummp-bg-danger);
+    color: var(--ummp-danger);
+}
+
+.ummp-modal-body {
+    padding: 25px;
+}
+
+.ummp-modal-footer {
+    padding: 20px 25px 25px;
+    border-top: 1px solid var(--ummp-border-light);
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+/* ========================================
+   Responsive Design
+   ======================================== */
+
+@media (max-width: 1200px) {
+    .ummp-dashboard-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .ummp-dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .ummp-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .ummp-quick-actions {
+        grid-template-columns: 1fr;
+    }
+    
+    .ummp-user-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .ummp-menu-columns {
+        grid-template-columns: 1fr;
+    }
+    
+    .ummp-menus-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .ummp-admin {
+        padding: 15px;
+    }
+    
+    .ummp-card {
+        padding: 20px;
+    }
+    
+    .ummp-admin h1 {
+        font-size: 1.8em;
+    }
+}
+
+/* ========================================
+   Animations
+   ======================================== */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ummp-card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.ummp-card:nth-child(1) { animation-delay: 0.1s; }
+.ummp-card:nth-child(2) { animation-delay: 0.2s; }
+.ummp-card:nth-child(3) { animation-delay: 0.3s; }
+.ummp-card:nth-child(4) { animation-delay: 0.4s; }
+
+/* ========================================
+   Scrollbar Styling
+   ======================================== */
+
+.ummp-activity-list::-webkit-scrollbar,
+.ummp-capabilities-groups::-webkit-scrollbar {
+    width: 8px;
+}
+
+.ummp-activity-list::-webkit-scrollbar-track,
+.ummp-capabilities-groups::-webkit-scrollbar-track {
+    background: var(--ummp-bg-neutral);
+    border-radius: 4px;
+}
+
+.ummp-activity-list::-webkit-scrollbar-thumb,
+.ummp-capabilities-groups::-webkit-scrollbar-thumb {
+    background: var(--ummp-border);
+    border-radius: 4px;
+}
+
+.ummp-activity-list::-webkit-scrollbar-thumb:hover,
+.ummp-capabilities-groups::-webkit-scrollbar-thumb:hover {
+    background: var(--ummp-border-dark);
+}
+
+/* ========================================
+   Loading States
+   ======================================== */
+
+.ummp-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.ummp-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid var(--ummp-border);
+    border-top: 2px solid var(--ummp-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ========================================
+   Success/Error Messages
+   ======================================== */
+
+.ummp-notice {
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border-left: 4px solid;
+}
+
+.ummp-notice-success {
+    background: var(--ummp-bg-success);
+    border-left-color: var(--ummp-success);
+    color: var(--ummp-text);
+}
+
+.ummp-notice-error {
+    background: var(--ummp-bg-danger);
+    border-left-color: var(--ummp-danger);
+    color: var(--ummp-text);
+}
+
+.ummp-notice-warning {
+    background: var(--ummp-bg-warning);
+    border-left-color: var(--ummp-warning);
+    color: var(--ummp-text);
+}
+
+/* ========================================
+   Utility Classes
+   ======================================== */
+
+.ummp-text-center { text-align: center; }
+.ummp-text-left { text-align: left; }
+.ummp-text-right { text-align: right; }
+
+.ummp-mt-20 { margin-top: 20px; }
+.ummp-mb-20 { margin-bottom: 20px; }
+.ummp-ml-20 { margin-left: 20px; }
+.ummp-mr-20 { margin-right: 20px; }
+
+.ummp-p-20 { padding: 20px; }
+.ummp-pt-20 { padding-top: 20px; }
+.ummp-pb-20 { padding-bottom: 20px; }
+.ummp-pl-20 { padding-left: 20px; }
+.ummp-pr-20 { padding-right: 20px; }
+
+.ummp-hidden { display: none !important; }
+.ummp-visible { display: block !important; }
+
+/* ========================================
+   Print Styles
+   ======================================== */
+
+@media print {
+    .ummp-admin {
+        background: white;
+        padding: 0;
+    }
+    
+    .ummp-card {
+        box-shadow: none;
+        border: 1px solid #ccc;
+        break-inside: avoid;
+    }
+    
+    .ummp-actions,
+    .ummp-modal {
+        display: none !important;
+    }
+}
