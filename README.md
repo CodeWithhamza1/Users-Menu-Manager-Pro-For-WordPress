@@ -7,22 +7,6 @@
 
 > **Complete WordPress user management solution with advanced role management, menu restrictions, and form access control.**
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [API Reference](#api-reference)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [Support](#support)
-- [Changelog](#changelog)
-- [License](#license)
-
 ## 🎯 Overview
 
 **Users Menu Manager Pro** is a powerful WordPress plugin designed to give website administrators complete control over user roles, capabilities, and admin menu access. Perfect for multi-user websites, client portals, and businesses that need granular user permissions.
